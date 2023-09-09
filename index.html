@@ -12,10 +12,11 @@
 
     <script>
     function my_function() {
-        document.write("Hello, world!")
+        var output = document.getElementById("output");
+      output.innerHTML = "Hello, world!";
     }
     </script>
-
+    <div id="output"></div>
     <button onclick=my_function()>Click me</button>
   </form>
 
