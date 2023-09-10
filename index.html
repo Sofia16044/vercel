@@ -5,7 +5,6 @@
 </head>
 <body>
   <h1>What is your birthday?</h1>
-  <form>
     <label for="birthday">Birthday:</label>
     <input type="date" id="birthday" name="birthday">
     <input type="submit" value="Submit"><br>
@@ -13,12 +12,12 @@
     <script>
     function my_function() {
         var output = document.getElementById("output");
-      output.innerHTML = "Hello, world!";
+      output.innerHTML += "Hello, world!";
     }
     </script>
     <div id="output"></div>
     <button onclick=my_function()>Click me</button>
-  </form>
+
 
 
 
